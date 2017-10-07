@@ -11,6 +11,7 @@ Demo- http://robertjulianfronzo.com/~rfronzo/tenori-on-line/
 - Bouncing note mode
 - One-click chord mode
 - Load/Save patterns
+- Speed control
 
 
 
