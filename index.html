@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Tenori-on</title>
+<link rel="stylesheet" href="css/tenorion.css" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/tones.js"></script>
+<script src="js/tenorion.js"></script>
+<script src="js/record.js"></script>
+</head>
+<body>
+	<div id="octaveBar">
+		<img class="arrow" src="images/upArrow.png">
+		<div id="highOct" class="octave" ondrop="drop(event)"
+			ondragover="allowDrop(event)"></div>
+		<div id="midOct" class="octave" ondrop="drop(event)"
+			ondragover="allowDrop(event)">
+			<img id="treble" src="images/treble.gif" draggable="true"
+				ondragstart="drag(event)">
+		</div>
+		<div id="lowOct" class="octave" ondrop="drop(event)"
+			ondragover="allowDrop(event)"></div>
+		<img class="arrow" src="images/downArrow.png">
+	</div>
+	<div>
+		<canvas id="rippleCanvas" width="545" height="545" class="center"></canvas>
+		<canvas id="switchCanvas" width="545" height="545" class="center"></canvas>
+	</div>
+	<div class="buttonBar center">
+		<button id="clearButton" type="button">Reset</button>
+	</div>
+</body>
+</html>

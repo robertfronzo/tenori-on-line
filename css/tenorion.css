@@ -1,0 +1,102 @@
+body {
+	background-color: #F4F2F3;
+	color: white;
+	font-family: "Century Gothic", sans-serif;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	user-select: none;
+	margin: auto;
+	width: 50%;
+}
+
+h1 {
+	top: 0px;
+	font-weight: normal;
+}
+
+.center {
+	position: absolute;
+	left: 65px;
+	width: 545px;
+}
+
+#octaveBar {
+	position: absolute;
+	top: 70px;
+	left: 625px;
+	height: 545px;
+}
+
+.octave {
+	width: 40px;
+	height: 120px;
+}
+
+.arrow {
+	margin: 15px 3px 10px 3px;
+}
+
+#treble {
+	margin: 28px 7px;
+	cursor: pointer;
+}
+
+#lowOct {
+	background-color: #6ece2f;
+}
+
+#midOct {
+	background-color: #8bd758;
+}
+
+#highOct {
+	background-color: #a8e182;
+}
+
+canvas {
+	top: 40px;
+}
+
+#whiteCanvas {
+	z-index: 1;
+}
+
+#rippleCanvas {
+	z-index: 2;
+}
+
+#signature {
+	position: absolute;
+	top: 150px;
+	left: 5px;
+	color: #00FFC8;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 14px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(90deg);
+}
+
+.buttonBar {
+	top: 580px;
+}
+
+button {
+  background-color:	#6ECE2F;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 305px;
+  height: 27px;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 0px black, 0px 5px 0px 0px #6ECE2F, 0px 10px 5px #7cd243;
+}
+
+button:active {
+  top: 3px;
+  box-shadow: inset 0px 1px 0px black, 0px 2px 0px 0px #02F0BD, 0px 5px 3px #00FFC8;
+}
