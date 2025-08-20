@@ -12,7 +12,3 @@ Demo- https://robertfronzo.github.io/tenori-on-line/
 - One-click chord mode
 - Load/Save patterns
 - Tempo control
-
-
-
-Based on https://github.com/kmerrill27/tenorion
